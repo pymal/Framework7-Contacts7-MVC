@@ -12,6 +12,7 @@ define(['app'],function(app) {
 		this.phone = values['phone'] || '';
 		this.email = values['email'] || '';
 		this.city = values['city'] || '';
+		this.picture = values['picture'] || '';
 		this.isFavorite = values['isFavorite'] || false;
     }
 

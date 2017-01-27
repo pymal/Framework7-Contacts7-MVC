@@ -15,7 +15,8 @@
 			<div class="page-content contact-edit-form">
 				<div class="contact-header">
 					<div class="item-photo">
-						<img src="img/cats/{{model.picId}}.png">
+						<!--<img src="img/cats/{{model.picId}}.png">-->
+            <img src="{{model.picture}}">
 					</div>
 					<div class="list-block">
 						<ul>
@@ -46,6 +47,21 @@
 									</div>
 								</div>
 							</li>
+              <li>
+                <div class="item-content">
+                  <div class="item-inner">
+                    <div class="item-input">
+                      {{#if model.picture}}
+                        <input id="picture_input" type="file" value="{{model.picture}}" onchange="changePicture(this);">
+                        <input id="picture" type="text" name="picture_path" value="{{model.picture}}">
+                      {{else}}
+                        <input id="picture_input" type="file" value="{{model.picture}}" onchange="changePicture(this);">
+                        <input id="picture" type="text" name="picture_path" value="{{model.picture}}">
+                      {{/if}}
+                    </div>
+                  </div>
+                </div>
+              </li>
 						</ul>
 					</div>
 				</div>
