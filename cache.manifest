@@ -1,0 +1,47 @@
+CACHE MANIFEST
+# v1.0 - 2017-01-27 18:12
+# maximal 5mb
+
+index.html
+contact.html
+
+lib/css/framework7.css
+lib/css/ionicons.css
+css/app.css
+
+lib/lodash.js
+lib/framework7.js
+lib/framework7.min.js
+lib/handlebars.js
+lib/hbs.js
+lib/lodash.js
+lib/require.js
+lib/text.js
+
+app.js
+
+js/router.js
+js/utils.js
+js/contactModel.js
+
+js/list/contact-list-item.hbs
+js/list/listController.js
+js/list/listView.js
+
+js/contact/contact.hbs
+js/contact/contactController.js
+js/contact/contactView.js
+
+js/contactEdit/contactEdit.hbs
+js/contactEdit/contactEditController.js
+js/contactEdit/contactEditView.js
+
+lib/fonts/ionicons.ttf?v=1.5.2
+lib/fonts/ionicons.woff?v=1.5.2
+lib/fonts/ionicons.svg?v=1.5.2#Ionicons
+
+NETWORK:
+
+img/cats
+
+FALLBACK:
